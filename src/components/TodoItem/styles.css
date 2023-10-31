@@ -1,0 +1,19 @@
+
+.todo {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+  }
+  
+  .todo.uncompleted {
+    border-color: #e74c3c;
+  }
+  
+  .todo.completed {
+    border-color: #27ae60;
+    text-decoration: line-through;
+  }
