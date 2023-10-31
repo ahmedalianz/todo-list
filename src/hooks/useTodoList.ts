@@ -8,7 +8,6 @@ function useTodoList() {
   
     useEffect(() => {
         setLoading(true)
-        setLoading(false)
       fetch(API_URL)
         .then((response) => response.json())
         .then((data) => {
